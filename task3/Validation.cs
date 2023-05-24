@@ -28,7 +28,6 @@ namespace task3
                 if (N < 3) Console.WriteLine(" ! The number of parameters is < 3");
                 if (duplicates != "") Console.WriteLine(" ! There are repeating parameters: " + duplicates);
                 Console.ResetColor();
-
                 Console.WriteLine("\nPlease, enter odd number of unique parameters >= 3.\nFor example:");
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine(" √ Rock Scissors Paper\n" +
